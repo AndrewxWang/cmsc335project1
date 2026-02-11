@@ -68,3 +68,7 @@
 .mypage img {
     max-width: 25rem;
 }
+
+#credit:hover {
+    color: white;
+}
