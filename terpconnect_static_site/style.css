@@ -1,0 +1,66 @@
+:root {
+    --font-color: black;
+}
+
+.content {
+    font-family: "Lexend", sans-serif;
+    padding: 0rem 12.5rem 0rem 1rem;
+    cursor: url('music-note.png'), auto;
+}
+
+.content table, th, td {
+    border-style: solid;
+    text-align: center;
+    padding: 0.125rem;        
+}
+
+.content tbody tr:nth-child(2n) {
+    background-color: lightgray;
+}
+
+.content th {
+    background-color: lightgray;
+    color: var(--font-color);
+    border-color: black;
+}
+
+.content iframe {
+    height: 13.33rem;
+    width: 23.6rem;
+}
+.mypage {
+    background-color: whitesmoke;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    border-radius: 1rem;
+    border-style: inset;
+    border-width: 0.25rem;
+}
+
+.mypage h1 {
+    color: var(--font-color);
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+.mypage p {
+    color: var(--font-color);
+}
+
+.mypage #paragraphs::first-letter {
+    color: var(--font-color);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mypage #paragraphs:hover {
+    background-color: #D3D3D3;
+    color: #414a4c;
+}
+
+.mypage p{
+    cursor: text;
+}
+
+.mypage img {
+    max-width: 25rem;
+}

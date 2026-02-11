@@ -1,0 +1,136 @@
+<html lang="en">
+
+<head>
+    <title>Andrew Xiao Wang Static Site</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <h1>Terpconnect Static Site</h1>
+  <h2>Render Info</h2> 
+  <ul>
+		  <li><strong>Name: </strong>Andrew Xiao Wang</li>
+		  <li><strong>Render Location: </strong><a href="https://andrewxwgstaticsite.onrender.com/">https://andrewxwgstaticsite.onrender.com/</a></li>
+  </ul>
+  <strong>Last Modified: </strong><!--#echo var="LAST_MODIFIED" --><br>
+  <br>
+
+  <div class="content">
+    <div class="mypage">
+        <br>
+        <hr>
+
+        <h1>About Keshi</h1>
+        <p id="paragraphs">
+            This website is about Vietnamese-American singer, songwriter, producer Casey Luong (November 4, 1994)
+            <br>who is better known as Keshi. Keshi is known for his lo-fi, R&B, bedroom pop style songs that collectively
+            <br> combines these genres to form his own unique sound.
+        </p>
+
+        <img src="keshi.jpg" alt="Keshi at the 2024 Grammys"><br>
+        <a href="https://www.grammy.com/news/keshi-requiem-new-album-interview">Photographed by: Angella Choe</a>
+
+        <h1>EP/Albums Released (in order)</h1>
+        <!--list goes here-->
+        <ol>
+            <li>THE REAPER (2018)</li>
+            <li>skeletons (2019)</li>
+            <li>bandaids (2020)</li>
+            <li>always (2020)</li>
+            <li>GABRIEL (2022)</li>
+            <li>Requiem (2024)</li>
+        </ol>
+
+        <h1>Other Known Releases</h1>
+        <ul>
+        <li>MAX - IT'S YOU (Featured Single, )</li>
+        <li>Jeremy Zucker - Sociopath (Featured Single, ) </li>
+        <li>Boylife Jones - Baby Chop (Featured Single, )</li>
+        </ul>
+
+        <h1>Album of the Year Reviews:</h1>
+        <p id="paragraphs">
+            The table below contains the review scores albums on the website, Album of the Year, a critical
+            <br>music rating website that rates whether a music album is a contender for the album of the year.
+        </p>
+
+        <!--table goes here-->
+        <table>
+            <caption><u><i><a href="https://www.albumoftheyear.org/artist/65638-keshi/" target="_blank">AOTY Reviews</a></i></u></caption>
+            <thead>
+                <tr>
+                    <th>EP/Album Name</th>
+                    <th>Year Released</th>
+                    <th>Critic Review</th>
+                    <th>User Review</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>THE REAPER </td>
+                    <td>2018</td>
+                    <td rowspan="4">n/a</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>skeletons</td>
+                    <td>2019</td>
+                    <td>68</td>
+                </tr>
+
+                <tr>
+                    <td>bandaids</td>
+                    <td>2020</td>
+                    <td>69</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>always</td>
+                    <td>2020</td>
+                    <td>71</td>
+                    
+                </tr>
+
+                <tr>
+                    <td>GABRIEL</td>
+                    <td>2022</td>
+                    <td>60</td>
+                    <td>70</td>
+                </tr>
+
+                <tr>
+                    <td>Requiem</td>
+                    <td>2024</td>
+                    <td><b>70</b></td>
+                    <td><b>74</b></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h1>Fun Facts</h1>
+        <ul>
+            <li>Before pursuing a career in music, Keshi was an oncology nurse at the Texas Medical Center at Houstin.</li>
+            <li>Keshi does not like having other artists featured in his albums (but does not mind<br> featuring in other people's albums).</li>
+            <li>Keshi has been in a long-term relationship with his best friend, Mai, since meeting her<br> in middle school. She is also the voice of his producer tag he commonly uses in his songs.</li>
+        </ul>
+        
+        <iframe src="https://www.youtube.com/embed/8zwuP6BFdNY?si=I7UK-036jrUidIAP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <hr>
+        <br>
+    </div>
+</div>
+    <p id="credit">&copy; Copyright Andrew Wang | <i>All Rights Rserved.</i></p>
+    <p>Created by: Andrew Wang</p>
+</body>
+</html>
